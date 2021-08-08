@@ -1,0 +1,17 @@
+.place__container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 22px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .place__container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__container {
+        margin: 15px 0;
+    }
+}

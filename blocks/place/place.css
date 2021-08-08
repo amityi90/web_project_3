@@ -1,0 +1,27 @@
+@import url(./__container/place__container.css);
+@import url(./__image/place__image.css);
+@import url(./__link/place__link.css);
+@import url(./__main-content/place__main-content.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__website/place__website.css);
+
+.place {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 18px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        padding: 14px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place {
+        padding: 9px 0;
+    }
+}

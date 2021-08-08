@@ -1,0 +1,24 @@
+.cover__heading-container {
+    max-width: 656px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    top: 38%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .cover__heading-container {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover__heading-container {
+        top: 51px;
+    }
+}
