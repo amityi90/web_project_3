@@ -5,20 +5,22 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 24px;
+    margin: 90px 0 24px;
     width: calc(100% - 96px);
+    align-self: center;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
         width: calc(100% - 48px);
+        margin-top: 86px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .footer {
         flex-direction: column;
-        margin: 32px o 24px 16px;
+        margin: 32px 0 24px 16px;
         align-content: flex-start;
     }
 }

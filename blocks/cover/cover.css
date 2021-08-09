@@ -1,14 +1,15 @@
 @import url(./__link/cover__link.css);
+@import url(./__image/cover__image.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__heading-container/cover__heading-container.css);
-@import url(./__image/cover__image.css);
 
 .cover {
-    margin: 0;
-    padding: 42px 0 92px;
+    align-self: center;
+    width: calc(100% - 96px);
 }
 
-.cover__link:hover > .cover__image {
-    opacity: 0.8;
+@media screen and (max-width: 1024px) {
+    .cover{
+        width: 100%;
+    }
 }

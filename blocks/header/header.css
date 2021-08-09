@@ -4,10 +4,11 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
+    width: calc(100% - 296px);
     display: flex;
     justify-content: space-between;
-    margin: 34px auto 58px;
-    width: 984px;
+    margin: 34px 0 58px;
+    align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
