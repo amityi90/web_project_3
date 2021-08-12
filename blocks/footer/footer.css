@@ -19,8 +19,11 @@
 
 @media screen and (max-width: 425px) {
     .footer {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 16px;
         flex-direction: column;
-        margin: 32px 0 24px 16px;
+        margin: 32px 0 24px;
         align-content: flex-start;
     }
 }

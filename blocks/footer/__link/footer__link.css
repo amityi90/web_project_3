@@ -6,10 +6,14 @@
     margin: 0 18px 0 0;
 }
 
+.footer__link:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 425px) {
     .footer__link {
         font-size: 24px;
-        line-height: 24px;
+        line-height: 56px;
         margin-top: 32px;
     }
 }

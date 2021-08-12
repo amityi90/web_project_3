@@ -3,6 +3,7 @@
 @import url(./__main-content/intro__main-content.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-detail/intro__list-detail.css);
+@import url(./__detail/intro__detail.css);
 
 .intro {
     box-sizing: border-box;

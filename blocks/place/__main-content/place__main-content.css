@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .place__main-content {
         margin-top: 32px;
         margin: 32px 16px 0 16px;
