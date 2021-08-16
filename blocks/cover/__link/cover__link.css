@@ -9,7 +9,6 @@
     margin: 0 auto;
     text-decoration-line: none;
     color: white;
-    min-height: calc(62.5vw - 96px);
     max-width: 1184px;
     min-height: 740px;
 }
