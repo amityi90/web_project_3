@@ -2,7 +2,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_active/header__lang-link_active.css);
-@import url(./__lang-link/_first/header__lang-link_first.css);
+@import url(./__lang-item/header__lang-item.css);
 
 .header {
     width: calc(100% - 296px);

@@ -9,14 +9,14 @@
     margin: 0 auto;
     text-decoration-line: none;
     color: white;
-    height: calc(62.5vw - 96px);
+    min-height: calc(62.5vw - 96px);
     max-width: 1184px;
-    max-height: 740px;
+    min-height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__link  {
-        height: 62.5vw;
+        min-height: 62.5vw;
     }
 }
 
